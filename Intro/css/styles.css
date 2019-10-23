@@ -1,0 +1,113 @@
+.grid_main{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: minmax(100px, auto);
+  grid-row-gap: 5px;
+  grid-template-areas:
+  "logo Club"
+  "Foto info"
+}
+
+              /* Posicion */
+.logo_main{
+  height: 150px;
+  width: 150px;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+header{
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 20px;
+}
+
+.imagen_index{
+  width: auto;
+  height: auto;
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: center;
+  margin-top: 50px;
+}
+
+.info_main{
+grid-row: 2;
+grid-column: 2;
+margin: 30px;
+}
+
+
+p{
+  margin-left: 3%;
+}
+
+.sportmanship_rules{
+  grid-column: 2;
+  grid-row: 3;
+  width: 70%;
+  text-align:justify;
+}
+
+.title_rules{
+  margin-right: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+.sportmanship_rules{
+  line-height: 30px;
+  padding: 40px;
+}
+
+          /* Main Contenido */
+h1{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+nav{
+  margin-top: 50px;
+}
+
+ul.nav_ul{
+list-style-type: none;
+padding: 0;
+font-size: 20px;
+text-decoration: none;
+}
+
+
+.bullet_bullet{
+  margin-left: 15px;
+  text-align: justify;
+}
+li {
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.about_text{
+  padding-top: 40px;
+}
+
+.title_rules_north{
+  font-size: 40px;
+}
+
+ol li{
+  list-style-type: lower-latin;
+  display: block;
+  margin-left: 5px;
+}
+
+.tabla{
+  align-items:
+}

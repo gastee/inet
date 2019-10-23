@@ -1,0 +1,64 @@
+html, body{
+  margin: 0;
+  height: 100%;
+  background-image: url(./img/smrt.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+}
+
+                      /* imagenes */
+
+.App-header img{
+  margin-top: 100px;
+  height: 140px;
+  width: auto;
+}
+
+.circledright2{
+    height: 100px;
+    width: auto;
+}
+
+.Homeicon{
+  height: 50px;
+  width: auto;
+}
+
+                      /* Contenido */
+.content{
+  width: 347px;
+  text-align: center;
+  margin:auto;
+  margin-top: 45px;
+}
+
+.browsing{
+  margin-top: 60px;
+}
+
+.myitinerary{
+  margin-top: 50px;
+}
+
+.contentbot ul{
+  margin-top: 40px;
+}
+.contentbot li{
+  list-style-type: none;
+  display: inline;
+}
+
+.contentbot a{
+  margin-left: -20px;
+  padding: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer{
+  margin-top: 50px;
+}
