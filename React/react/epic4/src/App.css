@@ -10,7 +10,7 @@ html, body{
   text-align: center;
 }
 
-                      /* imagenes */
+                                                     /* imagenes */
 
 .App-header img{
   margin-top: 100px;
@@ -19,8 +19,8 @@ html, body{
 }
 
 .circledright2{
-    height: 100px;
-    width: auto;
+  height: 100px;
+  width: auto;
 }
 
 .Homeicon{
@@ -28,7 +28,7 @@ html, body{
   width: auto;
 }
 
-                      /* Contenido */
+                                                      /* Contenido */
 .content{
   width: 347px;
   text-align: center;
@@ -49,12 +49,11 @@ html, body{
 }
 .contentbot li{
   list-style-type: none;
-  display: inline;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .contentbot a{
-  margin-left: -20px;
-  padding: 50px;
   text-decoration: none;
   color: black;
 }
